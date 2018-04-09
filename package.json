@@ -1,0 +1,39 @@
+{
+  "name": "rr-mui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample application with react-redux-material-ui build from scratch",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "satish",
+  "license": "ISC",
+  "dependencies": {
+    "@devexpress/dx-react-core": "^1.0.1",
+    "@devexpress/dx-react-grid": "^1.0.1",
+    "@devexpress/dx-react-grid-material-ui": "^1.0.1",
+    "babel-polyfill": "^6.26.0",
+    "humps": "^2.0.1",
+    "material-ui": "^1.0.0-beta.35",
+    "material-ui-icons": "^1.0.0-beta.35",
+    "normalizr": "^3.2.4",
+    "react": "^16.2.0",
+    "react-actioncable-provider": "^1.0.3",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-cablecar": "^2.0.3",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.1.1",
+    "redux-devtools": "^3.4.1",
+    "redux-devtools-dock-monitor": "^1.1.3",
+    "redux-devtools-log-monitor": "^1.4.0",
+    "redux-logger": "^3.0.6"
+  }
+}
